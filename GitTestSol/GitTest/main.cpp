@@ -1,6 +1,9 @@
 #include <iostream>
 
 void main() {
+	std::string userName;
 
-	std::cout << "Hello world!";
+	std::cout << "Your name: ";
+	std::cin >> userName;
+	std::cout << "Welcome " << userName;
 }
